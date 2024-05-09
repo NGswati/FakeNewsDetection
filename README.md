@@ -27,6 +27,7 @@ FakeNewsDetection/
 ├── multipleClassifier_confusionMatrix.py # Confusion matrix comparison of classifiers
 ├── optimalClassifier.py                  # Script for identifying the optimal classifier
 ├── CMimage                               # Folder containing confusion matrix images
+├── requirement.txt                       # imports and downloads to be made
 ├── README.md                             # Documentation
 ```
 
