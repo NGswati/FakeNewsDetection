@@ -46,12 +46,16 @@ FakeNewsDetection/
 ## Usage
 
 1. Prepare your dataset by ensuring it has labeled columns for `text` and `label` (real or fake).
-2. Choose the classifier you want to use, e.g., Logistic Regression or Passive Aggressive Classifier.
-3. Run the respective script to train the model:
+2. Run multiple classifier file and check accuracy for all different classifiers.
+   ```bash
+   python multipleClassifier_accuracyGraph.py
+   ```
+3. Choose the classifier you want to use, e.g., Logistic Regression or Passive Aggressive Classifier.
+4. Run the respective script to train the model:
    ```bash
    python Logistic_Classifier.py
    ```
-4. Visualize performance metrics using the provided visualization scripts.
+5. Visualize performance metrics using the provided visualization scripts.
 
 ## Examples
 
