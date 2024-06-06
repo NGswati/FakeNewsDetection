@@ -28,6 +28,7 @@ X_train, X_test, y_train, y_test = train_test_split(preprocessed_df[text_column]
 model = make_pipeline(CountVectorizer(), LogisticRegression())
 model.fit(X_train, y_train)
 
+
 predictions = model.predict(X_test)
 
 from sklearn.metrics import roc_curve, roc_auc_score
