@@ -83,7 +83,7 @@ for classifier in classifiers:
     LogisticRegression(),
     RandomForestClassifier()
     ]
-
+#accuracy table
 accuracies = []
 
 for classifier in classifiers:
